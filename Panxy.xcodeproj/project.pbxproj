@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		99D16C9828F85CF500A9F492 /* PanxyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D16C9728F85CF500A9F492 /* PanxyApp.swift */; };
-		99D16C9A28F85CF500A9F492 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D16C9928F85CF500A9F492 /* ContentView.swift */; };
+		99D16C9A28F85CF500A9F492 /* Wrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D16C9928F85CF500A9F492 /* Wrapper.swift */; };
 		99D16C9C28F85CF700A9F492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99D16C9B28F85CF700A9F492 /* Assets.xcassets */; };
 		99D16C9F28F85CF700A9F492 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99D16C9E28F85CF700A9F492 /* Preview Assets.xcassets */; };
 		99D16CA928F85CF700A9F492 /* PanxyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D16CA828F85CF700A9F492 /* PanxyTests.swift */; };
 		99D16CB328F85CF700A9F492 /* PanxyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D16CB228F85CF700A9F492 /* PanxyUITests.swift */; };
 		99D16CB528F85CF700A9F492 /* PanxyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D16CB428F85CF700A9F492 /* PanxyUITestsLaunchTests.swift */; };
+		99D16CC228F85FB200A9F492 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D16CC128F85FB200A9F492 /* Home.swift */; };
+		99D16CC428F85FBD00A9F492 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D16CC328F85FBD00A9F492 /* Profile.swift */; };
+		99D16CC628F85FCC00A9F492 /* TransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D16CC528F85FCC00A9F492 /* TransactionsView.swift */; };
+		99D16CC828F85FDF00A9F492 /* NewExpenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D16CC728F85FDF00A9F492 /* NewExpenses.swift */; };
+		99D16CCB28F8602A00A9F492 /* CreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D16CCA28F8602A00A9F492 /* CreditCard.swift */; };
+		99D16CCE28F8604800A9F492 /* ExpenseCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D16CCD28F8604800A9F492 /* ExpenseCard.swift */; };
+		99D16CD028F8605E00A9F492 /* TransactionChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D16CCF28F8605E00A9F492 /* TransactionChart.swift */; };
+		99D16CD228F86A7B00A9F492 /* Rubik in Resources */ = {isa = PBXBuildFile; fileRef = 99D16CD128F86A7B00A9F492 /* Rubik */; };
+		99D16CD528F86C9600A9F492 /* NaviagtionBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D16CD428F86C9600A9F492 /* NaviagtionBar.swift */; };
+		99D16CDA28F871DE00A9F492 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D16CD928F871DE00A9F492 /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +46,7 @@
 /* Begin PBXFileReference section */
 		99D16C9428F85CF500A9F492 /* Panxy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Panxy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99D16C9728F85CF500A9F492 /* PanxyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanxyApp.swift; sourceTree = "<group>"; };
-		99D16C9928F85CF500A9F492 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		99D16C9928F85CF500A9F492 /* Wrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wrapper.swift; sourceTree = "<group>"; };
 		99D16C9B28F85CF700A9F492 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99D16C9E28F85CF700A9F492 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		99D16CA428F85CF700A9F492 /* PanxyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanxyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +54,17 @@
 		99D16CAE28F85CF700A9F492 /* PanxyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanxyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99D16CB228F85CF700A9F492 /* PanxyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanxyUITests.swift; sourceTree = "<group>"; };
 		99D16CB428F85CF700A9F492 /* PanxyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanxyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		99D16CC128F85FB200A9F492 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		99D16CC328F85FBD00A9F492 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		99D16CC528F85FCC00A9F492 /* TransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsView.swift; sourceTree = "<group>"; };
+		99D16CC728F85FDF00A9F492 /* NewExpenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewExpenses.swift; sourceTree = "<group>"; };
+		99D16CCA28F8602A00A9F492 /* CreditCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCard.swift; sourceTree = "<group>"; };
+		99D16CCD28F8604800A9F492 /* ExpenseCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseCard.swift; sourceTree = "<group>"; };
+		99D16CCF28F8605E00A9F492 /* TransactionChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionChart.swift; sourceTree = "<group>"; };
+		99D16CD128F86A7B00A9F492 /* Rubik */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Rubik; sourceTree = "<group>"; };
+		99D16CD328F86ABE00A9F492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		99D16CD428F86C9600A9F492 /* NaviagtionBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviagtionBar.swift; sourceTree = "<group>"; };
+		99D16CD928F871DE00A9F492 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +115,11 @@
 		99D16C9628F85CF500A9F492 /* Panxy */ = {
 			isa = PBXGroup;
 			children = (
+				99D16CD328F86ABE00A9F492 /* Info.plist */,
+				99D16CD128F86A7B00A9F492 /* Rubik */,
 				99D16C9728F85CF500A9F492 /* PanxyApp.swift */,
-				99D16C9928F85CF500A9F492 /* ContentView.swift */,
+				99D16CC928F8600500A9F492 /* Views */,
+				99D16CCC28F8602E00A9F492 /* Components */,
 				99D16C9B28F85CF700A9F492 /* Assets.xcassets */,
 				99D16C9D28F85CF700A9F492 /* Preview Content */,
 			);
@@ -127,6 +151,30 @@
 			path = PanxyUITests;
 			sourceTree = "<group>";
 		};
+		99D16CC928F8600500A9F492 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				99D16C9928F85CF500A9F492 /* Wrapper.swift */,
+				99D16CC128F85FB200A9F492 /* Home.swift */,
+				99D16CC328F85FBD00A9F492 /* Profile.swift */,
+				99D16CC528F85FCC00A9F492 /* TransactionsView.swift */,
+				99D16CC728F85FDF00A9F492 /* NewExpenses.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		99D16CCC28F8602E00A9F492 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				99D16CD428F86C9600A9F492 /* NaviagtionBar.swift */,
+				99D16CCA28F8602A00A9F492 /* CreditCard.swift */,
+				99D16CCD28F8604800A9F492 /* ExpenseCard.swift */,
+				99D16CCF28F8605E00A9F492 /* TransactionChart.swift */,
+				99D16CD928F871DE00A9F492 /* TabBar.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +191,8 @@
 			dependencies = (
 			);
 			name = Panxy;
+			packageProductDependencies = (
+			);
 			productName = Panxy;
 			productReference = 99D16C9428F85CF500A9F492 /* Panxy.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +265,8 @@
 				Base,
 			);
 			mainGroup = 99D16C8B28F85CF500A9F492;
+			packageReferences = (
+			);
 			productRefGroup = 99D16C9528F85CF500A9F492 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,6 +283,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99D16CD228F86A7B00A9F492 /* Rubik in Resources */,
 				99D16C9F28F85CF700A9F492 /* Preview Assets.xcassets in Resources */,
 				99D16C9C28F85CF700A9F492 /* Assets.xcassets in Resources */,
 			);
@@ -257,7 +310,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99D16C9A28F85CF500A9F492 /* ContentView.swift in Sources */,
+				99D16CC628F85FCC00A9F492 /* TransactionsView.swift in Sources */,
+				99D16CD528F86C9600A9F492 /* NaviagtionBar.swift in Sources */,
+				99D16CC428F85FBD00A9F492 /* Profile.swift in Sources */,
+				99D16CCB28F8602A00A9F492 /* CreditCard.swift in Sources */,
+				99D16CC228F85FB200A9F492 /* Home.swift in Sources */,
+				99D16CD028F8605E00A9F492 /* TransactionChart.swift in Sources */,
+				99D16CC828F85FDF00A9F492 /* NewExpenses.swift in Sources */,
+				99D16C9A28F85CF500A9F492 /* Wrapper.swift in Sources */,
+				99D16CDA28F871DE00A9F492 /* TabBar.swift in Sources */,
+				99D16CCE28F8604800A9F492 /* ExpenseCard.swift in Sources */,
 				99D16C9828F85CF500A9F492 /* PanxyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +482,7 @@
 				DEVELOPMENT_TEAM = QH3T53K3KZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Panxy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +512,7 @@
 				DEVELOPMENT_TEAM = QH3T53K3KZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Panxy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
