@@ -9,9 +9,20 @@ import SwiftUI
 
 @main
 struct PanxyApp: App {
+    
+    @AppStorage("Onboarding") var beenOnboarded: Bool = false
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                if beenOnboarded {
+                    Wrapper()
+                } else {
+                    Onboarding()
+                }
+            }
+            .navigationBarHidden(true)
+            .navigationBarBackButtonHidden()
         }
     }
 }

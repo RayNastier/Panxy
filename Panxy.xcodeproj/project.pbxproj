@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		99A205D5290D335000948390 /* TabBar in Frameworks */ = {isa = PBXBuildFile; productRef = 99A205D4290D335000948390 /* TabBar */; };
+		99A205D7290D386100948390 /* Overview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A205D6290D386100948390 /* Overview.swift */; };
+		99A205D9290D386800948390 /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A205D8290D386800948390 /* Wallet.swift */; };
+		99A205DB290D387300948390 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A205DA290D387300948390 /* Settings.swift */; };
+		99A205DD290D512B00948390 /* MainCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A205DC290D512B00948390 /* MainCard.swift */; };
+		99A205DF290E725F00948390 /* CoinPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A205DE290E725F00948390 /* CoinPalette.swift */; };
+		99A205E1290E90EF00948390 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A205E0290E90EF00948390 /* Onboarding.swift */; };
+		99A205E3290EA69700948390 /* CoinPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A205E2290EA69700948390 /* CoinPage.swift */; };
+		99A205E5290EAC9000948390 /* Adding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A205E4290EAC9000948390 /* Adding.swift */; };
+		99A205E8290EAE2300948390 /* Sending.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A205E7290EAE2300948390 /* Sending.swift */; };
+		99A205EA290EBB5100948390 /* Requesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A205E9290EBB5100948390 /* Requesting.swift */; };
+		99A205EC290ECAF300948390 /* CardOnboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A205EB290ECAF300948390 /* CardOnboarding.swift */; };
 		99D16C9828F85CF500A9F492 /* PanxyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D16C9728F85CF500A9F492 /* PanxyApp.swift */; };
 		99D16C9A28F85CF500A9F492 /* Wrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D16C9928F85CF500A9F492 /* Wrapper.swift */; };
 		99D16C9C28F85CF700A9F492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99D16C9B28F85CF700A9F492 /* Assets.xcassets */; };
@@ -15,9 +27,6 @@
 		99D16CB328F85CF700A9F492 /* PanxyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D16CB228F85CF700A9F492 /* PanxyUITests.swift */; };
 		99D16CB528F85CF700A9F492 /* PanxyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D16CB428F85CF700A9F492 /* PanxyUITestsLaunchTests.swift */; };
 		99D16CC228F85FB200A9F492 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D16CC128F85FB200A9F492 /* Home.swift */; };
-		99D16CC428F85FBD00A9F492 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D16CC328F85FBD00A9F492 /* Profile.swift */; };
-		99D16CC628F85FCC00A9F492 /* TransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D16CC528F85FCC00A9F492 /* TransactionsView.swift */; };
-		99D16CC828F85FDF00A9F492 /* NewExpenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D16CC728F85FDF00A9F492 /* NewExpenses.swift */; };
 		99D16CCB28F8602A00A9F492 /* CreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D16CCA28F8602A00A9F492 /* CreditCard.swift */; };
 		99D16CCE28F8604800A9F492 /* ExpenseCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D16CCD28F8604800A9F492 /* ExpenseCard.swift */; };
 		99D16CD028F8605E00A9F492 /* TransactionChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D16CCF28F8605E00A9F492 /* TransactionChart.swift */; };
@@ -44,6 +53,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		99A205D6290D386100948390 /* Overview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overview.swift; sourceTree = "<group>"; };
+		99A205D8290D386800948390 /* Wallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
+		99A205DA290D387300948390 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		99A205DC290D512B00948390 /* MainCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCard.swift; sourceTree = "<group>"; };
+		99A205DE290E725F00948390 /* CoinPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinPalette.swift; sourceTree = "<group>"; };
+		99A205E0290E90EF00948390 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		99A205E2290EA69700948390 /* CoinPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinPage.swift; sourceTree = "<group>"; };
+		99A205E4290EAC9000948390 /* Adding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adding.swift; sourceTree = "<group>"; };
+		99A205E7290EAE2300948390 /* Sending.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sending.swift; sourceTree = "<group>"; };
+		99A205E9290EBB5100948390 /* Requesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requesting.swift; sourceTree = "<group>"; };
+		99A205EB290ECAF300948390 /* CardOnboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardOnboarding.swift; sourceTree = "<group>"; };
 		99D16C9428F85CF500A9F492 /* Panxy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Panxy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99D16C9728F85CF500A9F492 /* PanxyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanxyApp.swift; sourceTree = "<group>"; };
 		99D16C9928F85CF500A9F492 /* Wrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wrapper.swift; sourceTree = "<group>"; };
@@ -55,9 +75,6 @@
 		99D16CB228F85CF700A9F492 /* PanxyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanxyUITests.swift; sourceTree = "<group>"; };
 		99D16CB428F85CF700A9F492 /* PanxyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanxyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		99D16CC128F85FB200A9F492 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
-		99D16CC328F85FBD00A9F492 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
-		99D16CC528F85FCC00A9F492 /* TransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsView.swift; sourceTree = "<group>"; };
-		99D16CC728F85FDF00A9F492 /* NewExpenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewExpenses.swift; sourceTree = "<group>"; };
 		99D16CCA28F8602A00A9F492 /* CreditCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCard.swift; sourceTree = "<group>"; };
 		99D16CCD28F8604800A9F492 /* ExpenseCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseCard.swift; sourceTree = "<group>"; };
 		99D16CCF28F8605E00A9F492 /* TransactionChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionChart.swift; sourceTree = "<group>"; };
@@ -72,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99A205D5290D335000948390 /* TabBar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +110,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		99A205E6290EAC9700948390 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				99A205E4290EAC9000948390 /* Adding.swift */,
+				99A205E9290EBB5100948390 /* Requesting.swift */,
+				99A205E7290EAE2300948390 /* Sending.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		99D16C8B28F85CF500A9F492 = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +148,7 @@
 				99D16C9728F85CF500A9F492 /* PanxyApp.swift */,
 				99D16CC928F8600500A9F492 /* Views */,
 				99D16CCC28F8602E00A9F492 /* Components */,
+				99A205E6290EAC9700948390 /* ViewModels */,
 				99D16C9B28F85CF700A9F492 /* Assets.xcassets */,
 				99D16C9D28F85CF700A9F492 /* Preview Content */,
 			);
@@ -154,11 +183,13 @@
 		99D16CC928F8600500A9F492 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				99A205E0290E90EF00948390 /* Onboarding.swift */,
 				99D16C9928F85CF500A9F492 /* Wrapper.swift */,
 				99D16CC128F85FB200A9F492 /* Home.swift */,
-				99D16CC328F85FBD00A9F492 /* Profile.swift */,
-				99D16CC528F85FCC00A9F492 /* TransactionsView.swift */,
-				99D16CC728F85FDF00A9F492 /* NewExpenses.swift */,
+				99A205E2290EA69700948390 /* CoinPage.swift */,
+				99A205D6290D386100948390 /* Overview.swift */,
+				99A205D8290D386800948390 /* Wallet.swift */,
+				99A205DA290D387300948390 /* Settings.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -171,6 +202,9 @@
 				99D16CCD28F8604800A9F492 /* ExpenseCard.swift */,
 				99D16CCF28F8605E00A9F492 /* TransactionChart.swift */,
 				99D16CD928F871DE00A9F492 /* TabBar.swift */,
+				99A205DC290D512B00948390 /* MainCard.swift */,
+				99A205DE290E725F00948390 /* CoinPalette.swift */,
+				99A205EB290ECAF300948390 /* CardOnboarding.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -192,6 +226,7 @@
 			);
 			name = Panxy;
 			packageProductDependencies = (
+				99A205D4290D335000948390 /* TabBar */,
 			);
 			productName = Panxy;
 			productReference = 99D16C9428F85CF500A9F492 /* Panxy.app */;
@@ -266,6 +301,7 @@
 			);
 			mainGroup = 99D16C8B28F85CF500A9F492;
 			packageReferences = (
+				99A205D3290D335000948390 /* XCRemoteSwiftPackageReference "TabBar" */,
 			);
 			productRefGroup = 99D16C9528F85CF500A9F492 /* Products */;
 			projectDirPath = "";
@@ -310,17 +346,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99D16CC628F85FCC00A9F492 /* TransactionsView.swift in Sources */,
 				99D16CD528F86C9600A9F492 /* NaviagtionBar.swift in Sources */,
-				99D16CC428F85FBD00A9F492 /* Profile.swift in Sources */,
 				99D16CCB28F8602A00A9F492 /* CreditCard.swift in Sources */,
+				99A205D7290D386100948390 /* Overview.swift in Sources */,
 				99D16CC228F85FB200A9F492 /* Home.swift in Sources */,
+				99A205DD290D512B00948390 /* MainCard.swift in Sources */,
 				99D16CD028F8605E00A9F492 /* TransactionChart.swift in Sources */,
-				99D16CC828F85FDF00A9F492 /* NewExpenses.swift in Sources */,
 				99D16C9A28F85CF500A9F492 /* Wrapper.swift in Sources */,
+				99A205E3290EA69700948390 /* CoinPage.swift in Sources */,
+				99A205EA290EBB5100948390 /* Requesting.swift in Sources */,
+				99A205D9290D386800948390 /* Wallet.swift in Sources */,
+				99A205E8290EAE2300948390 /* Sending.swift in Sources */,
+				99A205DF290E725F00948390 /* CoinPalette.swift in Sources */,
 				99D16CDA28F871DE00A9F492 /* TabBar.swift in Sources */,
+				99A205E1290E90EF00948390 /* Onboarding.swift in Sources */,
 				99D16CCE28F8604800A9F492 /* ExpenseCard.swift in Sources */,
+				99A205DB290D387300948390 /* Settings.swift in Sources */,
+				99A205E5290EAC9000948390 /* Adding.swift in Sources */,
 				99D16C9828F85CF500A9F492 /* PanxyApp.swift in Sources */,
+				99A205EC290ECAF300948390 /* CardOnboarding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -647,6 +691,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		99A205D3290D335000948390 /* XCRemoteSwiftPackageReference "TabBar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onl1ner/TabBar.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		99A205D4290D335000948390 /* TabBar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99A205D3290D335000948390 /* XCRemoteSwiftPackageReference "TabBar" */;
+			productName = TabBar;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 99D16C8C28F85CF500A9F492 /* Project object */;
 }

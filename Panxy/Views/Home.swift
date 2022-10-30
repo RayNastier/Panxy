@@ -9,7 +9,27 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .leading, spacing: 0){
+            MainCard()
+                .edgesIgnoringSafeArea(.all)
+                .shadow(radius: 20)
+            VStack(alignment: .leading){
+                Text("Portfolio")
+                    .font(.custom("Rubik-Medium", size: 28))
+                    .foregroundColor(.white)
+                ScrollView(showsIndicators: false){
+                    ForEach(Coin.allCases){ coin in
+                        NavigationLink {
+                            CoinPage(coin: coin)
+                        } label: {
+                            CoinPalette(coin: coin)
+                        }
+                    }
+                }
+            }
+            .padding(.horizontal)
+        }
+        .background(Color("Background"))
     }
 }
 
