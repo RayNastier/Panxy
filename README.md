@@ -1,5 +1,5 @@
 
-# ![App Screenshot](Panxy/Assets.xcassets/AppIcon.appiconset/Icon-60@3x.png?raw=true)Panxy
+# <img src="Panxy/Assets.xcassets/AppIcon.appiconset/Icon-60@3x.png" width="40" /> Panxy
 
 Panxy is a multi-card / crypto iOS app that makes crypto holder's life easy, it offers you the ability to see both your bank account transactions and crypto volume in the same place.
 
@@ -11,7 +11,7 @@ Panxy is a multi-card / crypto iOS app that makes crypto holder's life easy, it 
 an ambitious iOS developer enjoying building new apps and making peoples life easier and enjoyable.
 
 
-![Logo](https://gihtub.com/RayNastier/Panxy/Panxy/Assets.xcassets/PanxyMark.png?raw=true)
+<img src="Panxy/Assets.xcassets/PanxyMark.png" width="300" />
 
 
 ## Authors
