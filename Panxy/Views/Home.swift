@@ -8,9 +8,12 @@
 import SwiftUI
 
 struct HomeView: View {
+    
+    @State var operation: Operation = .none
+    
     var body: some View {
         VStack(alignment: .leading, spacing: 0){
-            MainCard()
+            MainCard(operating: $operation)
                 .edgesIgnoringSafeArea(.all)
                 .shadow(radius: 20)
             VStack(alignment: .leading){
@@ -26,6 +29,20 @@ struct HomeView: View {
                         }
                     }
                 }
+                .simultaneousGesture(
+                    DragGesture()
+                        .onChanged{ value in
+                            if value.translation.height < -10 {
+                                withAnimation {
+                                    operation = .empty
+                                }
+                            } else if value.translation.height > 10 {
+                                withAnimation {
+                                    operation = .none
+                                }
+                            }
+                        }
+                )
             }
             .padding(.horizontal)
         }

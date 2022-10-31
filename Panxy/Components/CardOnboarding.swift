@@ -19,7 +19,22 @@ struct CardOnboarding_Previews: PreviewProvider {
     }
 }
 
-struct CrystalCard: View {
+enum CardType {
+    case crystal
+    case colorful
+    
+    var background: LinearGradient {
+        switch self {
+        case .crystal:
+            return LinearGradient(gradient: Gradient(colors: [Color.white.opacity(0.4), Color.white.opacity(0.1)]), startPoint: .topLeading, endPoint: .bottomTrailing)
+        case .colorful:
+            return LinearGradient(gradient: Gradient(colors: [Color("Green"), Color("backgroundTabbar")]), startPoint: .topTrailing, endPoint: .bottomLeading)
+        }
+    }
+}
+
+struct Card: View {
+    var card: CardType
     var body: some View {
         ZStack{
             VStack(alignment: .leading, spacing: 24){
@@ -63,7 +78,8 @@ struct CrystalCard: View {
             }
             .padding()
         }
-        .background(LinearGradient(gradient: Gradient(colors: [Color.white.opacity(0.4), Color.white.opacity(0.1)]), startPoint: .topLeading, endPoint: .bottomTrailing).blur(radius: 60))
+        .background(card.background)
+        .background(.ultraThinMaterial)
         .overlay{
             RoundedRectangle(cornerRadius: 24)
                 .stroke(.white, style: StrokeStyle(lineWidth: 2))
@@ -72,5 +88,3 @@ struct CrystalCard: View {
         .foregroundColor(.white)
     }
 }
-
-

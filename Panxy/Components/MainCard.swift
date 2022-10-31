@@ -12,6 +12,7 @@ extension Operation: Identifiable {
 }
 
 enum Operation: String, CaseIterable {
+    case empty
     case none
     case Add
     case Send
@@ -20,7 +21,7 @@ enum Operation: String, CaseIterable {
 }
 
 struct MainCard: View {
-    @State var operating: Operation = .none
+    @Binding var operating: Operation
     
     @StateObject var adding = Adding()
     @StateObject var sending = Sending()
@@ -66,7 +67,7 @@ struct MainCard: View {
                     }
                     HStack(spacing: 24){
                         ForEach(Operation.allCases){ operation in
-                            if operation != .none {
+                            if operation != .none && operation != .empty {
                                 Button {
                                     withAnimation {
                                         operating = operation
@@ -329,6 +330,8 @@ struct MainCard: View {
                             .cornerRadius(.infinity)
                     }
                 }
+            case .empty:
+                EmptyView()
             }
         }
         .foregroundColor(.white)
@@ -340,13 +343,13 @@ struct MainCard: View {
                 LinearGradient(gradient: Gradient(colors: [Color("Ceal"), Color.clear]), startPoint: .top, endPoint: .bottom)
             }
         )
-        .cornerRadius(38)
+        .cornerRadius(operating == .empty ? 16 : 38)
     }
 }
 
 struct MainCard_Previews: PreviewProvider {
     static var previews: some View {
-        MainCard()
+        MainCard(operating: .constant(.none))
     }
 }
 
